@@ -1,0 +1,163 @@
+[
+  // Custom bindings
+  {
+    "bindings": {
+      "cmd-shift-o": "file_finder::Toggle",
+      "cmd-0": "workspace::ToggleLeftDock",
+      "cmd-ctrl-shift-e": "project_search::ToggleFocus" // context: Pane, Not overridable currently!
+    }
+  },
+  // Standard macOS bindings
+  {
+    "bindings": {}
+  },
+  {
+    "context": "Editor",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && mode == auto_height",
+    "bindings": {}
+  },
+  {
+    "context": "AssistantPanel",
+    "bindings": {}
+  },
+  {
+    "context": "ConversationEditor > Editor",
+    "bindings": {}
+  },
+  {
+    "context": "BufferSearchBar",
+    "bindings": {}
+  },
+  {
+    "context": "BufferSearchBar && in_replace",
+    "bindings": {}
+  },
+  {
+    "context": "BufferSearchBar && !in_replace > Editor",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectSearchBar",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectSearchBar > Editor",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectSearchBar && in_replace",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectSearchView",
+    "bindings": {}
+  },
+  {
+    "context": "Pane",
+    "bindings": {}
+  },
+  // Bindings from VS Code
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-ctrl-j": "editor::GoToDefinition",
+      "cmd-ctrl-shift-f": "editor::FindAllReferences"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {}
+  },
+  {
+    "context": "Pane",
+    "bindings": {}
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-alt-0": "workspace::ToggleRightDock"
+    }
+  },
+  // Bindings from Sublime Text
+  {
+    "context": "Editor",
+    "bindings": {}
+  },
+  {
+    "bindings": {}
+  },
+  // Bindings from Atom
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-cmd-left": "pane::GoBack",
+      "ctrl-cmd-right": "pane::GoForward"
+    }
+  },
+  // Bindings that should be unified with bindings for more general actions
+  {
+    "context": "Editor && renaming",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && showing_completions",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && showing_code_actions",
+    "bindings": {}
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "bindings": {}
+  },
+  // Custom bindings
+  {
+    "bindings": {}
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectSearchBar && !in_replace",
+    "bindings": {}
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "cmd-f": "project_panel::NewSearchInDirectory"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {}
+  },
+  {
+    "context": "CollabPanel && not_editing",
+    "bindings": {}
+  },
+  {
+    "context": "(CollabPanel && editing) > Editor",
+    "bindings": {}
+  },
+  {
+    "context": "ChannelModal",
+    "bindings": {}
+  },
+  {
+    "context": "ChannelModal > Picker > Editor",
+    "bindings": {}
+  },
+  {
+    "context": "Terminal",
+    "bindings": {}
+  }
+]
